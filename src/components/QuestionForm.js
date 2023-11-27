@@ -20,6 +20,9 @@ function QuestionForm(props) {
   function handleSubmit(event) {
     event.preventDefault();
     console.log(formData);
+
+    // If you want to pass the form data to a parent component, use:
+    // props.onSubmit(formData);
   }
 
   return (
